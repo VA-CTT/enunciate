@@ -60,7 +60,7 @@
     <module>maven-plugin</module>
     <module>simple-archetype</module>
 
-    <module>examples</module>
+    <!--module>examples</module-->
   </modules>
 
   <properties>
@@ -166,7 +166,7 @@
           </execution>
         </executions>
       </plugin>
-      <plugin>
+      <!--plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
         <executions>
@@ -192,7 +192,7 @@ your path down the rabbit hole.</message>
             </configuration>
           </execution>
         </executions>
-      </plugin>
+      </plugin-->
     </plugins>
     <pluginManagement>
       <plugins>
